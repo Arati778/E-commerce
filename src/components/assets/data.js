@@ -1,7 +1,7 @@
 import p1 from "../assets/womenimg2.avif";
-import p2 from "../assets/womenimg2.avif";
-import p3 from "../assets/womenimg2.avif";
-import p4 from "../assets/womenimg2.avif";
+import p2 from "../assets/women.avif";
+import p3 from "../assets/womenimg2model.avif";
+import p4 from "../assets/women-top.avif";
 
 let data_product = [
   {

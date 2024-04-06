@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { ShopContext } from "../context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
+  const { getTotalCartItems } = useContext(ShopContext);
 
   return (
     <>
@@ -34,7 +36,7 @@ const Navbar = () => {
             {menu == "womens" ? <hr /> : <></>}
           </li>
           <li onClick={() => setMenu("kids")}>
-            <Link style={{ textDecoration: "none" }} to="kids">
+            <Link style={{ textDecoration: "none" }} to="/kids">
               Kids{" "}
             </Link>
             {menu === "kids" ? <hr /> : <></>}
@@ -50,7 +52,7 @@ const Navbar = () => {
               style={{ fontSize: "27px" }}
             ></i>
           </Link>
-          <div className="nav-cart-count">0</div>
+          <div className="nav-cart-count">{getTotalCartItems()}</div>
         </div>
       </div>
     </>

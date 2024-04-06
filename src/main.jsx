@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import App from "./App";
+import ShopContextProvider from "./components/context/ShopContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <ShopContextProvider>
     <App />
-  </React.StrictMode>
+  </ShopContextProvider>
 );

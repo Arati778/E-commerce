@@ -39,6 +39,14 @@ let new_collections = [
     old_price: 1330,
   },
   {
+    id: 9,
+    name: "Miss Olive Women's Top",
+    category: "women",
+    image: p14_img,
+    new_price: 820,
+    old_price: 910,
+  },
+  {
     id: 11,
     name: "women blue kurtaElevate your style for formal events shirt",
     category: "men",
@@ -53,6 +61,14 @@ let new_collections = [
     image: p5_img,
     new_price: 480,
     old_price: 630,
+  },
+  {
+    id: 13,
+    name: "women blue kurtaElevate your style for formal events shirt",
+    category: "men",
+    image: p6_img,
+    new_price: 680.5,
+    old_price: 430.2,
   },
 ];
 
