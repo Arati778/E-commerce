@@ -13,7 +13,7 @@ const Product = () => {
   const product = all_product.find((e) => e.id === Number(productId));
   return (
     <>
-      <div className="breadcrum">
+      <div className="breadcrum" style={{ color: "wheat" }}>
         home-- Shop- {product.category} {product.name}
       </div>
       <div>

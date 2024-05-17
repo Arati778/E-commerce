@@ -2,7 +2,7 @@
     margin: 0;
 }.hero{
     height: 100vh;
-    background: linear-gradient(180deg, #df5252, #74a17b22 190%);
+    background: linear-gradient(180deg, #e14444, #dfa452  100%);
     display: flex;
 }
 .hero-left{
@@ -22,7 +22,7 @@
 }
 .hero-left p{
     color: #171717;
-    font-size: 60px;
+    font-size: 56px;
     font-weight: 700;
 }
 

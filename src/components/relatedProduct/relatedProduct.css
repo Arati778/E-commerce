@@ -6,7 +6,7 @@
     height: 90vh;
 }
 .relatedproduct h1{
-    color: #171717;
+    color: #b9b6b6;
     font-size: 40px;
     font-weight: 600;
 }
@@ -14,7 +14,7 @@
     width: 150px;
     height: 5px;
     border-radius: 10px;
-    background: #252525;
+    background: #f54444;
 }
 .relatedprouct-item{
     display: flex;

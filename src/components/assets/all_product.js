@@ -20,17 +20,19 @@ import p20_img from "./kid-clothing.webp";
 import p21_img from "./kid-dress.webp";
 import p22_img from "./kid-scrit-tshirt.jpg";
 import p23_img from "./kid-wear.webp";
+import p24_img from "./men-colcton.webp";
+import p25_img from "./images.jpg";
 import p15_img from "./WomenPinkEthnicMotifsYokeDesignRegularGottaPattiKurtaw1.avif";
 
 let all_product = [
-  {
-    id: 1,
-    name: "women blue kurta",
-    category: "women",
-    image: p1_img,
-    new_price: 480,
-    old_price: 630,
-  },
+  // {
+  //   id: 1,
+  //   name: "women blue kurta",
+  //   category: "women",
+  //   image: p1_img,
+  //   new_price: 480,
+  //   old_price: 630,
+  // },
   {
     id: 2,
     name: "Wedani Floral Print V-Neck Top For Women",
@@ -206,6 +208,22 @@ let all_product = [
     image: p23_img,
     new_price: 480,
     old_price: 730,
+  },
+  {
+    id: 24,
+    name: "Men’s Clothing Suitable for Every Occasion",
+    category: "men",
+    image: p24_img,
+    new_price: 1210,
+    old_price: 1330,
+  },
+  {
+    id: 24,
+    name: "Men’s traditional t-shirt for everyday wear, Clothing Suitable for Every Occasion",
+    category: "men",
+    image: p25_img,
+    new_price: 1210,
+    old_price: 1330,
   },
 ];
 

@@ -29,10 +29,13 @@ const ProductDisplay = (props) => {
         </div>
 
         <div className="productdisplay-right-description">
-          This Message and its contents are intended solely for the addressee
-          and is proprietary. Information in this mail is for Star Health and
-          Allied Insurance Business Usage only. Any Use to other than the
-          addressee is misuse.
+          <p>
+            {" "}
+            This Message and its contents are intended solely for the addressee
+            and is proprietary. Information in this mail is for Star Health and
+            Allied Insurance Business Usage only. Any Use to other than the
+            addressee is misuse.
+          </p>
         </div>
         <div className="productdisplay-size">
           <h1>Select Size</h1>

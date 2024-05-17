@@ -25,13 +25,16 @@
     margin: 0px 60px;
    
 }
+.productdisplay-right-description{
+    color: rgb(202, 199, 199);
+}
 .productdisplay-right h1{
-    color: #232323;
+    color: #e9e4e4;
     font-size: 40px;
 }
 .product-rating{
     margin-top: 13px;
-   
+   color: rgb(201, 197, 197);
 }
 .productdisplay-right-prices{
     display: flex;
@@ -83,6 +86,7 @@
 }
 .productdisplay-category{
     margin-top: 10px;
+    color: rgb(195, 193, 193);
 }
 .productdisplay-category span{
     font-weight: 600;

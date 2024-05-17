@@ -11,11 +11,11 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="nav-logo">
-          <h1>SHOPPER</h1>
+          <h1>CREZYSHOP</h1>
         </div>
         <ul className="nav-menu">
           <li onClick={() => setMenu("shop")}>
-            <Link style={{ textDecoration: "none" }} to="/">
+            <Link style={{ textDecoration: "none", color: "white" }} to="/">
               {" "}
               Shop
             </Link>
@@ -24,19 +24,22 @@ const Navbar = () => {
           </li>
           <li onClick={() => setMenu("mens")}>
             {" "}
-            <Link style={{ textDecoration: "none" }} to="/mens">
+            <Link style={{ textDecoration: "none", color: "white" }} to="/mens">
               Men
             </Link>{" "}
             {menu === "mens" ? <hr /> : <></>}
           </li>
           <li onClick={() => setMenu("womens")}>
-            <Link style={{ textDecoration: "none" }} to="/womens">
+            <Link
+              style={{ textDecoration: "none", color: "white" }}
+              to="/womens"
+            >
               Women
             </Link>{" "}
             {menu == "womens" ? <hr /> : <></>}
           </li>
           <li onClick={() => setMenu("kids")}>
-            <Link style={{ textDecoration: "none" }} to="/kids">
+            <Link style={{ textDecoration: "none", color: "white" }} to="/kids">
               Kids{" "}
             </Link>
             {menu === "kids" ? <hr /> : <></>}
@@ -49,7 +52,7 @@ const Navbar = () => {
           <Link to="/cart">
             <i
               class="fa-solid fa-cart-shopping"
-              style={{ fontSize: "27px" }}
+              style={{ fontSize: "27px", color: "white" }}
             ></i>
           </Link>
           <div className="nav-cart-count">{getTotalCartItems()}</div>
